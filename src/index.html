@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WonChess</title>
+
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/chessboard.css" type="text/css" />
+</head>
+<body>
+    <div class="chessboard-container">
+        <table class="chessboard">
+            <thead>
+                <tr class="coordonates-top">
+                    <td></td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>e</td>
+                    <td>f</td>
+                    <td>g</td>
+                    <td>h</td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rank-8th">
+                    <td class="coordonate-left">8</td>
+                    <td class="square white file-a a8">
+                        <div class="piece black" draggable="true">
+                            t
+                        </div>
+                    </td>
+                    <td class="square black file-b b8">
+                        <div class="piece black" draggable="true">
+                            m
+                        </div>
+                    </td>
+                    <td class="square white file-c c8">
+                        <div class="piece black" draggable="true">
+                            v
+                        </div>
+                    </td>
+                    <td class="square black file-d d8">
+                        <div class="piece black" draggable="true">
+                            w
+                        </div>
+                    </td>
+                    <td class="square white file-e e8">
+                        <div class="piece black" draggable="true">
+                            l
+                        </div>
+                    </td>
+                    <td class="square black file-f f8">
+                        <div class="piece black" draggable="true">
+                            v
+                        </div>
+                    </td>
+                    <td class="square white file-g g8">
+                        <div class="piece black" draggable="true">
+                            m
+                        </div>
+                    </td>
+                    <td class="square black file-h h8">
+                        <div class="piece black" draggable="true">
+                            t
+                        </div>
+                    </td>
+                    <td class="coordonate-right">8</td>
+                </tr>
+                <tr class="rank-7th">
+                    <td class="coordonate-left">7</td>
+                    <td class="square black file-a a7">
+                        <div class="piece black" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square white file-b b7">
+                        <div class="piece black" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square black file-c c7">
+                        <div class="piece black" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square white file-d d7">
+                        <div class="piece black" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square black file-e e7">
+                        <div class="piece black" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square white file-f f7">
+                        <div class="piece black" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square black file-g g7">
+                        <div class="piece black" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square white file-h h7">
+                        <div class="piece black" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="coordonate-right">7</td>
+                </tr>
+                <tr class="rank-6th">
+                    <td class="coordonate-left">6</td>
+                    <td class="square white file-a a6"><div class="piece empty-square"></div> </td>
+                    <td class="square black file-b b6"><div class="piece empty-square"></div> </td>
+                    <td class="square white file-c c6"><div class="piece empty-square"></div> </td>
+                    <td class="square black file-d d6"><div class="piece empty-square"></div> </td>
+                    <td class="square white file-e e6"><div class="piece empty-square"></div> </td>
+                    <td class="square black file-f f6"><div class="piece empty-square"></div> </td>
+                    <td class="square white file-g g6"><div class="piece empty-square"></div> </td>
+                    <td class="square black file-h h6"><div class="piece empty-square"></div> </td>
+                    <td class="coordonate-right">6</td>
+                </tr>
+                <tr class="rank-5th">
+                    <td class="coordonate-left">5</td>
+                    <td class="square black file-a a5"><div class="piece empty-square"></div></td>
+                    <td class="square white file-b b5"><div class="piece empty-square"></div></td>
+                    <td class="square black file-c c5"><div class="piece empty-square"></div></td>
+                    <td class="square white file-d d5"><div class="piece empty-square"></div></td>
+                    <td class="square black file-e e5"><div class="piece empty-square"></div></td>
+                    <td class="square white file-f f5"><div class="piece empty-square"></div></td>
+                    <td class="square black file-g g5"><div class="piece empty-square"></div></td>
+                    <td class="square white file-h h5"><div class="piece empty-square"></div></td>
+                    <td class="coordonate-right">5</td>
+                </tr>
+                <tr class="rank-4th">
+                    <td class="coordonate-left">4</td>
+                    <td class="square white file-a a4"><div class="piece empty-square"></div></td>
+                    <td class="square black file-b b4"><div class="piece empty-square"></div></td>
+                    <td class="square white file-c c4"><div class="piece empty-square"></div></td>
+                    <td class="square black file-d d4"><div class="piece empty-square"></div></td>
+                    <td class="square white file-e e4"><div class="piece empty-square"></div></td>
+                    <td class="square black file-f f4"><div class="piece empty-square"></div></td>
+                    <td class="square white file-g g4"><div class="piece empty-square"></div></td>
+                    <td class="square black file-h h4"><div class="piece empty-square"></div></td>
+                    <td class="coordonate-right">4</td>
+                </tr>
+                <tr class="rank-3rd">
+                    <td class="coordonate-left">3</td>
+                    <td class="square black file-a a3"><div class="piece empty-square"></div></td>
+                    <td class="square white file-b b3"><div class="piece empty-square"></div></td>
+                    <td class="square black file-c c3"><div class="piece empty-square"></div></td>
+                    <td class="square white file-d d3"><div class="piece empty-square"></div></td>
+                    <td class="square black file-e e3"><div class="piece empty-square"></div></td>
+                    <td class="square white file-f f3"><div class="piece empty-square"></div></td>
+                    <td class="square black file-g g3"><div class="piece empty-square"></div></td>
+                    <td class="square white file-h h3"><div class="piece empty-square"></div></td>
+                    <td class="coordonate-right">3</td>
+                </tr>
+                <tr class="rank-2nd">
+                    <td class="coordonate-left">2</td>
+                    <td class="square white file-a a2">
+                        <div class="piece white" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square black file-b b2">
+                        <div class="piece white" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square white file-c c2">
+                        <div class="piece white" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square black file-d d2">
+                        <div class="piece white" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square white file-e e2">
+                        <div class="piece white" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square black file-f f2">
+                        <div class="piece white" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square white file-g g2">
+                        <div class="piece white" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="square black file-h h2">
+                        <div class="piece white" draggable="true">
+                            o
+                        </div>
+                    </td>
+                    <td class="coordonate-right">2</td>
+                </tr>
+                <tr class="rank-1st">
+                    <td class="coordonate-left">1</td>
+                    <td class="square black file-a a1">
+                        <div class="piece white" draggable="true">
+                            t
+                        </div>
+                    </td>
+                    <td class="square white file-b b1">
+                        <div class="piece white" draggable="true">
+                            m
+                        </div>
+                    </td>
+                    <td class="square black file-c c1">
+                        <div class="piece white" draggable="true">
+                            v
+                        </div>
+                    </td>
+                    <td class="square white file-d d1">
+                        <div class="piece white" draggable="true">
+                            w
+                        </div>
+                    </td>
+                    <td class="square black file-e e1">
+                        <div class="piece white" draggable="true">
+                            l
+                        </div>
+                    </td>
+                    <td class="square white file-f f1">
+                        <div class="piece white" draggable="true">
+                            v
+                        </div>
+                    </td>
+                    <td class="square black file-g g1">
+                        <div class="piece white" draggable="true" >
+                            m
+                        </div>
+                    </td>
+                    <td class="square white file-h h1">
+                        <div class="piece white" draggable="true">
+                            t
+                        </div>
+                    </td>
+                    <td class="coordonate-right">1</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="coordonates-bottom">
+                    <td></td>
+                    <td>a</td>
+                    <td>b</td>
+                    <td>c</td>
+                    <td>d</td>
+                    <td>e</td>
+                    <td>f</td>
+                    <td>g</td>
+                    <td>h</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>

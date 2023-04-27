@@ -1,0 +1,73 @@
+@import url("../pieces/pieces.css");
+
+.chessboard {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.chessboard td,
+.chessboard th {
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+}
+
+.square.black {
+    background-color: saddlebrown;
+}
+
+.square.white {
+    background-color: sandybrown;
+}
+
+.coordonates-row,
+.coordonate-left,
+.coordonate-right {
+    background-color: antiquewhite;
+}
+
+.chessboard thead .coordonates-row td:first-of-type,
+.chessboard thead .coordonates-row th:first-of-type {
+    border-bottom: none;
+    border-right: none;
+}
+
+.chessboard thead .coordonates-row td:last-of-type,
+.chessboard thead .coordonates-row th:last-of-type {
+    border-bottom: none;
+    border-right: 1px solid black;
+}
+
+.chessboard tfoot .coordonates-row td:first-of-type,
+.chessboard tfoot .coordonates-row th:first-of-type {
+    border-right: none;
+    border-top: none;
+}
+
+.chessboard tfoot .coordonates-row td:last-of-type,
+.chessboard tfoot .coordonates-row th:last-of-type {
+    border-top: none;
+    border-right: 1px solid black;
+}
+
+.chessboard .coordonates-row th:first-of-type,
+.chessboard .coordonates-row td:first-of-type{
+    border: 1px solid black;
+}
+
+.chessboard .coordonates-row td,
+.chessboard .coordonates-row th {
+    border-left: none;
+    border-right: none;
+}
+
+.chessboard .coordonate-left,
+.chessboard .coordonate-right{
+    border-bottom: none;
+    border-top: none;
+    padding: 0 5px 2px 5px;
+}
