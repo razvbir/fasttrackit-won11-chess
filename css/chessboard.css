@@ -1,0 +1,20 @@
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square.white {
+    background-color: navajowhite;
+}
+
+.square.black {
+    background-color: sandybrown;
+}
+
+.chessboard .row {
+    display: flex;
+}
