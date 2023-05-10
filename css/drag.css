@@ -1,0 +1,12 @@
+
+.dragging-piece {
+    opacity: 0.5;
+}
+
+.square.dragged-over[data-role="square"]{
+    background-color: yellowgreen;
+}
+
+.square img.dragged-over {
+    background-color: palevioletred;
+}

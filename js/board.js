@@ -39,84 +39,84 @@ const NumberToPiece = {
 
 const boardSetup = [
     [
-        [Pieces.wR, Colors.w],
-        [Pieces.wN, Colors.b],
-        [Pieces.wB, Colors.w],
-        [Pieces.wK, Colors.b],
-        [Pieces.wQ, Colors.w],
-        [Pieces.wB, Colors.b],
-        [Pieces.wN, Colors.w],
-        [Pieces.wR, Colors.b]
+        [Pieces.bR, Colors.w, 'a8'],
+        [Pieces.bN, Colors.b, 'b8'],
+        [Pieces.bB, Colors.w, 'c8'],
+        [Pieces.bQ, Colors.b, 'd8'],
+        [Pieces.bK, Colors.w, 'e8'],
+        [Pieces.bB, Colors.b, 'f8'],
+        [Pieces.bN, Colors.w, 'g8'],
+        [Pieces.bR, Colors.b, 'h8']
     ],
     [
-        [Pieces.wP, Colors.b],
-        [Pieces.wP, Colors.w],
-        [Pieces.wP, Colors.b],
-        [Pieces.wP, Colors.w],
-        [Pieces.wP, Colors.b],
-        [Pieces.wP, Colors.w],
-        [Pieces.wP, Colors.b],
-        [Pieces.wP, Colors.w]
+        [Pieces.bP, Colors.b, 'a7'],
+        [Pieces.bP, Colors.w, 'b7'],
+        [Pieces.bP, Colors.b, 'c7'],
+        [Pieces.bP, Colors.w, 'd7'],
+        [Pieces.bP, Colors.b, 'e7'],
+        [Pieces.bP, Colors.w, 'f7'],
+        [Pieces.bP, Colors.b, 'g7'],
+        [Pieces.bP, Colors.w, 'h7']
     ],
     [
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b]
+        [Pieces.none, Colors.w, 'a6'],
+        [Pieces.none, Colors.b, 'b6'],
+        [Pieces.none, Colors.w, 'c6'],
+        [Pieces.none, Colors.b, 'd6'],
+        [Pieces.none, Colors.w, 'e6'],
+        [Pieces.none, Colors.b, 'f6'],
+        [Pieces.none, Colors.w, 'g6'],
+        [Pieces.none, Colors.b, 'h6']
     ],
     [
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w]
+        [Pieces.none, Colors.b, 'a5'],
+        [Pieces.none, Colors.w, 'b5'],
+        [Pieces.none, Colors.b, 'c5'],
+        [Pieces.none, Colors.w, 'd5'],
+        [Pieces.none, Colors.b, 'e5'],
+        [Pieces.none, Colors.w, 'f5'],
+        [Pieces.none, Colors.b, 'g5'],
+        [Pieces.none, Colors.w, 'h5']
     ],
     [
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b]
+        [Pieces.none, Colors.w, 'a4'],
+        [Pieces.none, Colors.b, 'b4'],
+        [Pieces.none, Colors.w, 'c4'],
+        [Pieces.none, Colors.b, 'd4'],
+        [Pieces.none, Colors.w, 'e4'],
+        [Pieces.none, Colors.b, 'f4'],
+        [Pieces.none, Colors.w, 'g4'],
+        [Pieces.none, Colors.b, 'h4']
     ],
     [
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w],
-        [Pieces.none, Colors.b],
-        [Pieces.none, Colors.w]
+        [Pieces.none, Colors.b, 'a3'],
+        [Pieces.none, Colors.w, 'b3'],
+        [Pieces.none, Colors.b, 'c3'],
+        [Pieces.none, Colors.w, 'd3'],
+        [Pieces.none, Colors.b, 'e3'],
+        [Pieces.none, Colors.w, 'f3'],
+        [Pieces.none, Colors.b, 'g3'],
+        [Pieces.none, Colors.w, 'h3']
     ],
     [
-        [Pieces.bP, Colors.w],
-        [Pieces.bP, Colors.b],
-        [Pieces.bP, Colors.w],
-        [Pieces.bP, Colors.b],
-        [Pieces.bP, Colors.w],
-        [Pieces.bP, Colors.b],
-        [Pieces.bP, Colors.w],
-        [Pieces.bP, Colors.b]
+        [Pieces.wP, Colors.w, 'a2'],
+        [Pieces.wP, Colors.b, 'b2'],
+        [Pieces.wP, Colors.w, 'c2'],
+        [Pieces.wP, Colors.b, 'd2'],
+        [Pieces.wP, Colors.w, 'e2'],
+        [Pieces.wP, Colors.b, 'f2'],
+        [Pieces.wP, Colors.w, 'g2'],
+        [Pieces.wP, Colors.b, 'h2']
     ],
     [
-        [Pieces.bR, Colors.b],
-        [Pieces.bN, Colors.w],
-        [Pieces.bB, Colors.b],
-        [Pieces.bK, Colors.w],
-        [Pieces.bQ, Colors.b],
-        [Pieces.bB, Colors.w],
-        [Pieces.bN, Colors.b],
-        [Pieces.bR, Colors.w]
+        [Pieces.wR, Colors.b, 'a1'],
+        [Pieces.wN, Colors.w, 'b1'],
+        [Pieces.wB, Colors.b, 'c1'],
+        [Pieces.wQ, Colors.w, 'd1'],
+        [Pieces.wK, Colors.b, 'e1'],
+        [Pieces.wB, Colors.w, 'f1'],
+        [Pieces.wN, Colors.b, 'g1'],
+        [Pieces.wR, Colors.w, 'h1']
     ],
 ];
 
@@ -127,6 +127,7 @@ const drawBoard = (id) => {
 
     let currentBoard = document.createElement('div');
     currentBoard.setAttribute('class', 'chessboard');
+    currentBoard.setAttribute('data-role', 'chessboard');
 
     for (let row of boardSetup) {
         currentBoard.appendChild(drawBoardRow(row));
@@ -149,6 +150,8 @@ const drawBoardRow = (row) => {
 const drawBoardSquare = (square) => {
     let newSquare = document.createElement('div');
     newSquare.setAttribute('class', 'square ' + square[1]);
+    newSquare.setAttribute('data-role', 'square');
+    newSquare.setAttribute('data-name', square[2]);
 
     if (Number.isInteger(square[0]) && isPiece(square[0])) {
         newSquare.appendChild(drawPiece(NumberToPiece[square[0]]));
@@ -161,6 +164,8 @@ const drawPiece = (pieceShortname) => {
     let piece = document.createElement('img');
     piece.setAttribute('src', '/piece/pixel/' + pieceShortname + '.svg');
     piece.setAttribute('alt', pieceShortname);
+    piece.setAttribute('data-role', 'piece');
+    piece.setAttribute('data-piece', pieceShortname);
 
     return piece;
 };
