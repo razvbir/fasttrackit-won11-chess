@@ -1,6 +1,6 @@
 # WonChess
 
-O simplă aplicație cu care poți juca șah.
+O simplă aplicație cu care poți juca șah. Un demo se găsește [aici](https://fasttrackit.overengineering.software/).
 
 ## TODO
 
