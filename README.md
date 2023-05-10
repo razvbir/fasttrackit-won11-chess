@@ -1,5 +1,10 @@
 # WonChess
 
-O tablă de șah creată ca un exercițiu de învățare. Idee de extindere, transformare intr-un repertoire practicer.
+O simplă aplicație cu care poți juca șah.
 
+## TODO
 
+- [ ] Implementează capturări
+- [ ] Implementează mutări speciale (ex: rocada)
+- [ ] Arată mutările legale
+- [ ] Interzice mutările interzise
