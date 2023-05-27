@@ -8,3 +8,4 @@ O simplă aplicație cu care poți juca șah. Un demo se găsește [aici](https:
 - [ ] Implementează mutări speciale (ex: rocada)
 - [ ] Arată mutările legale
 - [ ] Interzice mutările interzise
+- [ ] Test commit
